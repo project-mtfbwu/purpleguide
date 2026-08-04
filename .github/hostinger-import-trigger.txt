@@ -1,2 +1,2 @@
 Run the one-time Hostinger backup import and live-site audit.
-Final retry: stable crawl limits, credential scrub, audit artifact, and Git LFS push.
+Final clean import: remove duplicate nested archives, preserve app files, sanitize credentials conservatively, and push to an import branch.
