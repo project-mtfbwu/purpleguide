@@ -1,0 +1,23 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+
+DirectoryIndex index.php
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 [L,QSA]
+</IfModule>
+
+<Files "index.php">
+AcceptPathInfo On
+</Files>
+# Block XMLRPC by server admin
+<Files xmlrpc.php>
+Require all denied
+</Files>
+
+# Block common scanner files by server admin
+<FilesMatch "^(\.env|\.git|composer\.(json|lock)|package\.json|wp-config\.php|debug\.log)$">
+Require all denied
+</FilesMatch>

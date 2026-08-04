@@ -1,0 +1,83 @@
+/* Admin Kanban styling aligned with frontend (/Feed_track_progress). */
+
+/* Typography utilities used by kanban partials */
+.fw-400 { font-weight: 400 !important; }
+.fw-500 { font-weight: 500 !important; }
+.fw-600 { font-weight: 600 !important; }
+.fw-700 { font-weight: 700 !important; }
+
+.fs-12 { font-size: 12px !important; }
+.fs-14 { font-size: 14px !important; }
+.fs-22 { font-size: 22px !important; }
+
+.lh-12 { line-height: 12px !important; }
+.lh-full { line-height: 100% !important; }
+
+.text-black { color: #000 !important; }
+.justify-content-space { justify-content: space-between; }
+
+/* Board container */
+#kanbanBoard {
+  background: #000;
+  padding: 20px;
+  border-radius: 24px;
+  margin-top: 15px;
+}
+
+/* Column containers (white rounded boxes) */
+.card-white-box {
+  border-radius: 20px;
+  background-color: #fff;
+  padding: 10px;
+}
+
+/* Card */
+.card-sm {
+  border-radius: 10px;
+  box-shadow: 0px 16px 32px 0px #00000014, 0px 4px 8px 0px #0000001F;
+  color: #fff;
+  padding: 17px 15px;
+}
+
+.card-sm p {
+  opacity: 0.8;
+  line-height: 22px;
+  font-size: 15px;
+  margin-bottom: 0;
+}
+
+.card-sm ul {
+  margin-bottom: 0;
+  padding-left: 1.5rem;
+}
+
+.card-sm ul li {
+  list-style: disc;
+  opacity: 0.8;
+  margin-bottom: 6px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.highlight-tag {
+  background: #000;
+  border-radius: 11px;
+  color: #fff;
+  padding: 0px 4px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+/* Improve heading look to match frontend screenshot */
+#kanbanBoard .card-white-box > h5 {
+  font-family: "Bebas Neue", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  letter-spacing: 0.5px;
+}
+
+/* Ensure admin overlay controls don't affect card sizing */
+.kanban-card { position: relative; }
+.kanban-card:hover .card-actions { display: block !important; }
+

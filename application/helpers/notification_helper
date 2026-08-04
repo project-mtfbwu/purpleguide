@@ -1,0 +1,87 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+
+/**
+ * Student-facing section registry for notifications.
+ *
+ * Mirrors Notification_service::$sections in the admin app (pgs_admin). The two
+ * apps are separate CodeIgniter installs sharing one database, so this list has
+ * to be kept in sync by hand when a section is added or renamed.
+ *
+ * Keyed by the `section` slug stored on each student_notifications row.
+ */
+if (!function_exists('notification_sections')) {
+    function notification_sections()
+    {
+        return [
+            'quick_dashboard_overview' => ['label' => 'Quick Dashboard Overview', 'url' => 'Dashboard#quick-dashboard-overview'],
+            'finalized_universities'   => ['label' => 'Finalized Universities', 'url' => 'Dashboard#finalized-universities'],
+            'currently_working_on'     => ['label' => 'You Are Currently Working On', 'url' => 'Dashboard#currently-working-on'],
+            'future_tasks'             => ['label' => 'Future Task Preview', 'url' => 'Dashboard#future-tasks'],
+            'where_you_stand'          => ['label' => 'Where You Stand', 'url' => 'Dashboard#where-you-stand'],
+            'comments'                 => ['label' => 'Comments', 'url' => 'Dashboard#commentsList'],
+            'documents'                => ['label' => 'Documents', 'url' => 'Upload_your_doc#documents'],
+            'review_queue'             => ['label' => 'Review Queue', 'url' => 'Feed_track_progress#review-notes'],
+            'counselor_notes'          => ['label' => 'Counsellor Notes', 'url' => 'Feed_track_progress#review-notes'],
+            'important_alerts'         => ['label' => 'Important Alerts', 'url' => 'Feed_track_progress#important-alerts'],
+            'kanban'                   => ['label' => 'Kanban Board', 'url' => 'Feed_track_progress#kanban-board'],
+            'weekly_wall'              => ['label' => 'Weekly Wall', 'url' => 'Purpleboard#weeklywall'],
+            // Courses and events deep-link to a single item, so they carry no
+            // section url and never override the url stored on the row.
+            'courses'                  => ['label' => 'Courses', 'url' => ''],
+            'events'                   => ['label' => 'Events', 'url' => ''],
+        ];
+    }
+}
+
+/**
+ * Fallback section slug for notifications written before sections existed,
+ * derived from the notification `type`.
+ */
+if (!function_exists('notification_section_for_type')) {
+    function notification_section_for_type($type)
+    {
+        $map = [
+            'quick_dashboard'     => 'quick_dashboard_overview',
+            'comment_reply'       => 'comments',
+            'document_update'     => 'documents',
+            'review_queue_update' => 'review_queue',
+            'counselor_note'      => 'counselor_notes',
+            'important_alert'     => 'important_alerts',
+            'kanban_update'       => 'kanban',
+            'weekly_wall'         => 'weekly_wall',
+            'top_picks_course'    => 'courses',
+            'top_picks_event'     => 'events',
+        ];
+
+        return $map[(string) $type] ?? null;
+    }
+}
+
+/**
+ * Resolve a notification row to its section slug, tolerating rows saved before
+ * the `section` column was introduced.
+ */
+if (!function_exists('notification_section_key')) {
+    function notification_section_key($notification)
+    {
+        $section = isset($notification->section) ? (string) $notification->section : '';
+        if ($section !== '' && isset(notification_sections()[$section])) {
+            return $section;
+        }
+
+        return notification_section_for_type($notification->type ?? '');
+    }
+}
+
+/**
+ * Human-readable section name to show on a notification, or '' if unknown.
+ */
+if (!function_exists('notification_section_label')) {
+    function notification_section_label($notification)
+    {
+        $key = notification_section_key($notification);
+
+        return $key !== null ? notification_sections()[$key]['label'] : '';
+    }
+}

@@ -1,0 +1,45 @@
+# Secrets and environment-specific configuration
+.env
+.env.*
+!.env.example
+wp-config.php
+.htpasswd
+*.pem
+*.key
+id_rsa*
+id_dsa*
+id_ed25519*
+
+# Databases and server backups
+*.sql
+*.sql.gz
+*.sqlite
+*.sqlite3
+*backup*.zip
+*backup*.tar*
+*.bak
+
+# Dependencies and runtime output
+node_modules/
+.npm/
+.pnpm-store/
+.yarn/cache/
+.next/cache/
+.nuxt/cache/
+wp-content/cache/
+wp-content/wflogs/
+wp-content/updraft/
+wp-content/ai1wm-backups/
+storage/framework/cache/
+storage/framework/sessions/
+storage/framework/views/
+storage/logs/
+var/cache/
+var/log/
+logs/
+tmp/
+temp/
+*.log
+error_log
+.DS_Store
+Thumbs.db

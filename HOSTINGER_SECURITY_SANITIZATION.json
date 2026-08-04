@@ -1,0 +1,66 @@
+{
+  "records": [
+    {
+      "path": "application/config/config.php",
+      "action": "sanitized",
+      "reason": "replaced sensitive PHP array assignments"
+    },
+    {
+      "path": "application/config/database.php",
+      "action": "sanitized",
+      "reason": "replaced database connection array values"
+    },
+    {
+      "path": "application/views/contact.php",
+      "action": "sanitized",
+      "reason": "replaced Google API key"
+    },
+    {
+      "path": "application/controllers/Googlelogins.php",
+      "action": "sanitized",
+      "reason": "replaced Google OAuth secret"
+    },
+    {
+      "path": "application/project/project/application/config/config.php",
+      "action": "sanitized",
+      "reason": "replaced sensitive PHP array assignments"
+    },
+    {
+      "path": "application/project/project/application/config/database.php",
+      "action": "sanitized",
+      "reason": "replaced database connection array values"
+    },
+    {
+      "path": "pgs_admin/application/config/config.php",
+      "action": "sanitized",
+      "reason": "replaced sensitive PHP array assignments"
+    },
+    {
+      "path": "pgs_admin/application/config/database.php",
+      "action": "sanitized",
+      "reason": "replaced database connection array values"
+    },
+    {
+      "path": "pgs_admin/application/project/project/application/config/config.php",
+      "action": "sanitized",
+      "reason": "replaced sensitive PHP array assignments"
+    },
+    {
+      "path": "pgs_admin/application/project/project/application/config/database.php",
+      "action": "sanitized",
+      "reason": "replaced database connection array values"
+    },
+    {
+      "path": "assets/email-templates/contact-form.php",
+      "action": "sanitized",
+      "reason": "replaced sensitive PHP object properties"
+    },
+    {
+      "path": "assets/email-templates/subscribe-newsletter.php",
+      "action": "sanitized",
+      "reason": "replaced sensitive PHP object properties"
+    }
+  ],
+  "unresolved_paths": [],
+  "policy": "Exact credential formats globally; generic assignments only in application-owned configs and endpoints."
+}

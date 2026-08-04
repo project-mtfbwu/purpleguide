@@ -1,0 +1,1901 @@
+{
+  "archive": {
+    "name": "public_html.zip",
+    "size_bytes": 2647772908,
+    "sha256": "403d10d070f03d5a2c589dc928717ddc28680658254f2fcecffae421634bcafb"
+  },
+  "raw_inventory": {
+    "file_count": 21788,
+    "total_bytes": 2642183488,
+    "extensions": {
+      ".php": 1115,
+      ".md": 4,
+      ".txt": 84,
+      ".ini": 3,
+      "[no extension]": 15270,
+      ".rst": 4,
+      ".json": 46,
+      ".zip": 20,
+      ".html": 538,
+      ".ttf": 27,
+      ".inv": 2,
+      ".js": 1308,
+      ".gif": 15,
+      ".png": 323,
+      ".css": 222,
+      ".ico": 5,
+      ".svg": 2295,
+      ".woff": 18,
+      ".otf": 2,
+      ".eot": 23,
+      ".woff2": 16,
+      ".jpg": 110,
+      ".jpeg": 20,
+      ".pdf": 10,
+      ".jfif": 4,
+      ".mp4": 3,
+      ".webp": 9,
+      ".bin": 50,
+      ".yml": 5,
+      ".less": 18,
+      ".scss": 143,
+      ".map": 27,
+      ".hbs": 1,
+      ".log": 1,
+      ".swf": 1,
+      ".tex": 1,
+      ".nuspec": 21,
+      ".nupkg": 22,
+      ".exe": 1,
+      ".docx": 1
+    },
+    "extension_bytes": {
+      ".php": 12911907,
+      ".md": 26690,
+      ".txt": 481028,
+      ".ini": 1048,
+      "[no extension]": 761792,
+      ".rst": 9562,
+      ".json": 9048065,
+      ".zip": 2222147460,
+      ".html": 18126434,
+      ".ttf": 4261320,
+      ".inv": 14618,
+      ".js": 46131586,
+      ".gif": 1945465,
+      ".png": 137111659,
+      ".css": 9556274,
+      ".ico": 115300,
+      ".svg": 17713676,
+      ".woff": 2043160,
+      ".otf": 125712,
+      ".eot": 2894150,
+      ".woff2": 1053892,
+      ".jpg": 109658457,
+      ".jpeg": 6987325,
+      ".pdf": 801489,
+      ".jfif": 551755,
+      ".mp4": 15275267,
+      ".webp": 519210,
+      ".bin": 6230378,
+      ".yml": 1474090,
+      ".less": 239133,
+      ".scss": 1732864,
+      ".map": 10163603,
+      ".hbs": 444,
+      ".log": 0,
+      ".swf": 64603,
+      ".tex": 3705,
+      ".nuspec": 46927,
+      ".nupkg": 283536,
+      ".exe": 1611440,
+      ".docx": 58464
+    },
+    "largest": [
+      [
+        1270380450,
+        "purplebackup1.zip"
+      ],
+      [
+        526701968,
+        "assets/css.zip"
+      ],
+      [
+        172034325,
+        "assets/img/img.zip"
+      ],
+      [
+        152845716,
+        "assets/img/about.png.zip"
+      ],
+      [
+        75092606,
+        "pgs_admin/application.zip"
+      ],
+      [
+        15555955,
+        "assets/img/reading-book-boy.png"
+      ],
+      [
+        12841167,
+        "assets/images/7941781437589.png"
+      ],
+      [
+        11689584,
+        "assets/img/doctor.png"
+      ],
+      [
+        10878797,
+        "assets/img/saved_1.jpg"
+      ],
+      [
+        10537612,
+        "assets/videos/uhd_25fps.mp4"
+      ],
+      [
+        10397263,
+        "assets/img/author.png"
+      ],
+      [
+        10082635,
+        "assets/img/reading-book-girl.jpg"
+      ],
+      [
+        9487435,
+        "pgs_admin/assets/images/37201784113676.png"
+      ],
+      [
+        9424258,
+        "assets/img/step.png"
+      ],
+      [
+        9284335,
+        "assets/img/uni.jpg"
+      ],
+      [
+        8639280,
+        "assets/img/computer.jpg"
+      ],
+      [
+        8465247,
+        "assets/img/green-1.png"
+      ],
+      [
+        8133984,
+        "assets/img/img-about.jpg"
+      ],
+      [
+        8059717,
+        "pgs_admin/assets/plugins.zip"
+      ],
+      [
+        7005170,
+        "assets/img/meet-laptop.jpg"
+      ],
+      [
+        6992168,
+        "assets/img/read-you-girl.jpg"
+      ],
+      [
+        6686815,
+        "assets/img/avatar.jpg"
+      ],
+      [
+        6410693,
+        "application/pgs.zip"
+      ],
+      [
+        6059103,
+        "pgs_admin/assets/images/47351772695332.png"
+      ],
+      [
+        5746382,
+        "assets/img/girl-pick-1.jpg"
+      ],
+      [
+        5294817,
+        "application/cache.zip"
+      ],
+      [
+        4701884,
+        "pgs_admin/assets/plugins/fontawesome/metadata/icon-families.json"
+      ],
+      [
+        4262904,
+        "pgs_admin/assets/plugins/fontawesome/metadata/icons.json"
+      ],
+      [
+        4240133,
+        "assets/img/girl-with-book.jpg"
+      ],
+      [
+        4067307,
+        "assets/img/degree-with-girl.png"
+      ],
+      [
+        4006478,
+        "assets/img/doctor-2.jpg"
+      ],
+      [
+        3926465,
+        "assets/img/insta-girl.png"
+      ],
+      [
+        3691407,
+        "assets/fonts/icomoon.svg"
+      ],
+      [
+        3587650,
+        "pgs_admin/application/cache.zip"
+      ],
+      [
+        3271614,
+        "pgs_admin/assets/images/11981784104515.png"
+      ],
+      [
+        3271614,
+        "assets/documents/88581784274914.png"
+      ],
+      [
+        3269112,
+        "assets/tmp/event_preview/preview_20260430_101953_4dfb270dde2c.jpeg"
+      ],
+      [
+        3114374,
+        "pgs_admin/assets/images/15941781870876.mp4"
+      ],
+      [
+        3025664,
+        "pgs_admin/assets/images/92131779362880.jpg"
+      ],
+      [
+        3025664,
+        "pgs_admin/assets/images/71441779437552.jpg"
+      ],
+      [
+        3025664,
+        "pgs_admin/assets/images/51451779437712.jpg"
+      ],
+      [
+        3025664,
+        "assets/img/tab-img.jpg"
+      ],
+      [
+        3025664,
+        "assets/img/saved_4.jpg"
+      ],
+      [
+        2187841,
+        "assets/documents/4621770182559.png"
+      ],
+      [
+        2090873,
+        "pgs_admin/assets/images/cvprog_1784892634_9364.png"
+      ],
+      [
+        2090873,
+        "pgs_admin/assets/images/cvprog_1784892565_2620.png"
+      ],
+      [
+        2090873,
+        "pgs_admin/assets/images/cvprog_1774088787_9821.png"
+      ],
+      [
+        2090873,
+        "pgs_admin/assets/images/159538.png"
+      ],
+      [
+        1985766,
+        "pgs_admin/material/dist/css/icons/material-design-iconic-font/fonts/materialdesignicons-webfontdc99.svg"
+      ],
+      [
+        1984070,
+        "assets/img/img-about-1.png"
+      ],
+      [
+        1925497,
+        "assets/documents/78481784282662.png"
+      ],
+      [
+        1925497,
+        "assets/documents/22311784282194.png"
+      ],
+      [
+        1668881,
+        "pgs_admin/assets/images/23261774004298.png"
+      ],
+      [
+        1668881,
+        "assets/documents/96181770356954.png"
+      ],
+      [
+        1623281,
+        "pgs_admin/assets/images/18131784289445.mp4"
+      ],
+      [
+        1611440,
+        "pgs_admin/assets/libs/jquery-steps/nuget/NuGet.exe"
+      ],
+      [
+        1566173,
+        "pgs_admin/assets/plugins/fontawesome/js/all.js"
+      ],
+      [
+        1468161,
+        "pgs_admin/assets/plugins/fontawesome/js/all.min.js"
+      ],
+      [
+        1465494,
+        "assets/img/complete-notes.png"
+      ],
+      [
+        1360614,
+        "assets/img/restro-img.jpg"
+      ],
+      [
+        1355080,
+        "assets/img/photo-3.jpg"
+      ],
+      [
+        1308426,
+        "assets/img/library.jpg"
+      ],
+      [
+        1217716,
+        "assets/js/vendors.js"
+      ],
+      [
+        1178225,
+        "pgs_admin/assets/libs/pdfmake/build/pdfmake.min.js"
+      ],
+      [
+        1177572,
+        "assets/fonts/icomoon.eot"
+      ],
+      [
+        1177484,
+        "assets/fonts/icomoon.woff"
+      ],
+      [
+        1177408,
+        "assets/fonts/icomoon.ttf"
+      ],
+      [
+        1170728,
+        "pgs_admin/assets/libs/pdfmake/pdfmake.min.js"
+      ],
+      [
+        1138809,
+        "assets/img/selfe.jpg"
+      ],
+      [
+        1132092,
+        "assets/img/heart.gif"
+      ],
+      [
+        1108108,
+        "pgs_admin/assets/images/50791783924759.png"
+      ],
+      [
+        1090081,
+        "assets/img/top.png"
+      ],
+      [
+        1039577,
+        "pgs_admin/material/cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/pdfmake.min.js"
+      ],
+      [
+        1028013,
+        "assets/css/style.min.css.map"
+      ],
+      [
+        955597,
+        "pgs_admin/material/cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/vfs_fonts.js"
+      ],
+      [
+        926233,
+        "pgs_admin/assets/libs/pdfmake/build/vfs_fonts.js"
+      ],
+      [
+        926228,
+        "pgs_admin/assets/libs/pdfmake/vfs_fonts.js"
+      ],
+      [
+        920575,
+        "assets/img/saved_2.jpg"
+      ],
+      [
+        916308,
+        "pgs_admin/assets/images/80241772695839.jpeg"
+      ],
+      [
+        916308,
+        "assets/documents/8381770642999.jpeg"
+      ],
+      [
+        904413,
+        "assets/css/icon.min.css.map"
+      ],
+      [
+        859472,
+        "pgs_admin/assets/plugins/fontawesome/sprites/solid.svg"
+      ],
+      [
+        848227,
+        "assets/img/about.png"
+      ],
+      [
+        846437,
+        "pgs_admin/assets/plugins/fontawesome/js/solid.js"
+      ],
+      [
+        846280,
+        "assets/css/vendors.min.css.map"
+      ],
+      [
+        845637,
+        "assets/img/team-goal.png"
+      ],
+      [
+        826243,
+        "pgs_admin/assets/plugins/fontawesome/js/solid.min.js"
+      ],
+      [
+        816926,
+        "pgs_admin/assets/fonts/fa-solid-900.svg"
+      ],
+      [
+        802341,
+        "pgs_admin/assets/plugins/fontawesome/metadata/icon-families.yml"
+      ],
+      [
+        801469,
+        "pgs_admin/assets/images/99421781870876.png"
+      ],
+      [
+        801469,
+        "assets/img/premium-2.png"
+      ],
+      [
+        794545,
+        "assets/img/library-r.jpg"
+      ],
+      [
+        754852,
+        "pgs_admin/assets/fonts/materialdesignicons-webfont.bin"
+      ],
+      [
+        754852,
+        "pgs_admin/assets/fonts/materialdesignicons-webfont-1.bin"
+      ],
+      [
+        754632,
+        "pgs_admin/assets/fonts/materialdesignicons-webfont-4.bin"
+      ],
+      [
+        752492,
+        "assets/documents/89521770117108.png"
+      ],
+      [
+        746121,
+        "assets/css/style.css"
+      ],
+      [
+        705996,
+        "pgs_admin/material/assets/libs/echarts/dist/echarts-en.min.js"
+      ],
+      [
+        704138,
+        "assets/img/countriesUSA2.png"
+      ],
+      [
+        696555,
+        "assets/img/premium-3.png"
+      ]
+    ]
+  },
+  "clean_import": {
+    "copied_files": 21665,
+    "copied_bytes": 413886137,
+    "lfs_extensions": [
+      ".bin",
+      ".eot",
+      ".gif",
+      ".ico",
+      ".jpeg",
+      ".jpg",
+      ".mp4",
+      ".otf",
+      ".pdf",
+      ".png",
+      ".ttf",
+      ".webp",
+      ".woff",
+      ".woff2",
+      ".zip"
+    ],
+    "oversized": []
+  },
+  "findings": [
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "error_log",
+      "reason": "server log"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "purplebackup1.zip",
+      "reason": "nested source-folder archive duplicated by extracted files"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "application/views_backup.zip",
+      "reason": "backup archive"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "application/cache.zip",
+      "reason": "nested source-folder archive duplicated by extracted files"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "application/pgs.zip",
+      "reason": "nested source-folder archive duplicated by extracted files"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/application.zip",
+      "reason": "nested source-folder archive duplicated by extracted files"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/error_log",
+      "reason": "server log"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "assets/css.zip",
+      "reason": "nested source-folder archive duplicated by extracted files"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "application/logs/index.html",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "warning",
+      "category": "possible secret",
+      "path": "application/views/contact.php",
+      "reason": "copied for sanitization after detecting Google API key"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "application/project/project/application/logs/index.html",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/application/cache.zip",
+      "reason": "nested source-folder archive duplicated by extracted files"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/plugins.zip",
+      "reason": "nested source-folder archive duplicated by extracted files"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/application/logs/index.html",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/application/project/project/application/logs/index.html",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/gmaps/yarn-error.log",
+      "reason": "runtime log/process file"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net-buttons-bs4/node_modules/jquery/LICENSE.txt",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net-buttons-bs4/node_modules/jquery/jquery.min.js",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net-buttons-bs4/node_modules/jquery/jquery.slim.min.js",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net-buttons-bs4/node_modules/jquery/AUTHORS.txt",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net-buttons-bs4/node_modules/jquery/external/sizzle/sizzle.min.js",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net-buttons-bs4/node_modules/jquery/external/sizzle/LICENSE.txt",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net-buttons/node_modules/jquery/LICENSE.txt",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net-buttons/node_modules/jquery/jquery.min.js",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net-buttons/node_modules/jquery/jquery.slim.min.js",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net-buttons/node_modules/jquery/AUTHORS.txt",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net-buttons/node_modules/datatables.net/License.txt",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net-buttons/node_modules/jquery/external/sizzle/sizzle.min.js",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net-buttons/node_modules/jquery/external/sizzle/LICENSE.txt",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net-buttons/node_modules/datatables.net/js/jquery.dataTables.min.js",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net-select/node_modules/jquery/LICENSE.txt",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net-select/node_modules/jquery/jquery.min.js",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net-select/node_modules/jquery/jquery.slim.min.js",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net-select/node_modules/jquery/AUTHORS.txt",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net-select/node_modules/datatables.net/License.txt",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net-select/node_modules/jquery/external/sizzle/sizzle.min.js",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net-select/node_modules/jquery/external/sizzle/LICENSE.txt",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net-select/node_modules/datatables.net/js/jquery.dataTables.min.js",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/jquery.counterup/node_modules/jquery/LICENSE.txt",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/jquery.counterup/node_modules/jquery/jquery.min.js",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/jquery.counterup/node_modules/jquery/jquery.slim.min.js",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/jquery.counterup/node_modules/jquery/AUTHORS.txt",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/jquery.counterup/node_modules/jquery/external/sizzle/sizzle.min.js",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/jquery.counterup/node_modules/jquery/external/sizzle/LICENSE.txt",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net-select-bs4/node_modules/jquery/LICENSE.txt",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net-select-bs4/node_modules/jquery/jquery.min.js",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net-select-bs4/node_modules/jquery/jquery.slim.min.js",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net-select-bs4/node_modules/jquery/AUTHORS.txt",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net-select-bs4/node_modules/jquery/external/sizzle/sizzle.min.js",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net-select-bs4/node_modules/jquery/external/sizzle/LICENSE.txt",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net/node_modules/jquery/LICENSE.txt",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net/node_modules/jquery/jquery.min.js",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net/node_modules/jquery/jquery.slim.min.js",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net/node_modules/jquery/AUTHORS.txt",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net/node_modules/jquery/external/sizzle/sizzle.min.js",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net/node_modules/jquery/external/sizzle/LICENSE.txt",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net-responsive-bs4/node_modules/jquery/LICENSE.txt",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net-responsive-bs4/node_modules/jquery/jquery.min.js",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net-responsive-bs4/node_modules/jquery/jquery.slim.min.js",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net-responsive-bs4/node_modules/jquery/AUTHORS.txt",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net-responsive-bs4/node_modules/jquery/external/sizzle/sizzle.min.js",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net-responsive-bs4/node_modules/jquery/external/sizzle/LICENSE.txt",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net-autofill/node_modules/jquery/LICENSE.txt",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net-autofill/node_modules/jquery/jquery.min.js",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net-autofill/node_modules/jquery/jquery.slim.min.js",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net-autofill/node_modules/jquery/AUTHORS.txt",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net-autofill/node_modules/datatables.net/License.txt",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net-autofill/node_modules/jquery/external/sizzle/sizzle.min.js",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net-autofill/node_modules/jquery/external/sizzle/LICENSE.txt",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net-autofill/node_modules/datatables.net/js/jquery.dataTables.min.js",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net-responsive/node_modules/jquery/LICENSE.txt",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net-responsive/node_modules/jquery/jquery.min.js",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net-responsive/node_modules/jquery/jquery.slim.min.js",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net-responsive/node_modules/jquery/AUTHORS.txt",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net-responsive/node_modules/datatables.net/License.txt",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net-responsive/node_modules/jquery/external/sizzle/sizzle.min.js",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net-responsive/node_modules/jquery/external/sizzle/LICENSE.txt",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net-responsive/node_modules/datatables.net/js/jquery.dataTables.min.js",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net-keytable-bs4/node_modules/jquery/LICENSE.txt",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net-keytable-bs4/node_modules/jquery/jquery.min.js",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net-keytable-bs4/node_modules/jquery/jquery.slim.min.js",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net-keytable-bs4/node_modules/jquery/AUTHORS.txt",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net-keytable-bs4/node_modules/jquery/external/sizzle/sizzle.min.js",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net-keytable-bs4/node_modules/jquery/external/sizzle/LICENSE.txt",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net-keytable/node_modules/jquery/LICENSE.txt",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net-keytable/node_modules/jquery/jquery.min.js",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net-keytable/node_modules/jquery/jquery.slim.min.js",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net-keytable/node_modules/jquery/AUTHORS.txt",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net-keytable/node_modules/datatables.net/License.txt",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net-keytable/node_modules/jquery/external/sizzle/sizzle.min.js",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net-keytable/node_modules/jquery/external/sizzle/LICENSE.txt",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net-keytable/node_modules/datatables.net/js/jquery.dataTables.min.js",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net-autofill-bs4/node_modules/jquery/LICENSE.txt",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net-autofill-bs4/node_modules/jquery/jquery.min.js",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net-autofill-bs4/node_modules/jquery/jquery.slim.min.js",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net-autofill-bs4/node_modules/jquery/AUTHORS.txt",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net-autofill-bs4/node_modules/jquery/external/sizzle/sizzle.min.js",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net-autofill-bs4/node_modules/jquery/external/sizzle/LICENSE.txt",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net-bs4/node_modules/jquery/LICENSE.txt",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net-bs4/node_modules/jquery/jquery.min.js",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net-bs4/node_modules/jquery/jquery.slim.min.js",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net-bs4/node_modules/jquery/AUTHORS.txt",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net-bs4/node_modules/datatables.net/License.txt",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net-bs4/node_modules/jquery/external/sizzle/sizzle.min.js",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net-bs4/node_modules/jquery/external/sizzle/LICENSE.txt",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/datatables.net-bs4/node_modules/datatables.net/js/jquery.dataTables.min.js",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/toastr/node_modules/jquery/LICENSE.txt",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/toastr/node_modules/jquery/jquery.min.js",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/toastr/node_modules/jquery/jquery.slim.min.js",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/toastr/node_modules/jquery/AUTHORS.txt",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/toastr/node_modules/jquery/external/sizzle/sizzle.min.js",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "pgs_admin/assets/libs/toastr/node_modules/jquery/external/sizzle/LICENSE.txt",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "assets/img/img.zip",
+      "reason": "nested source-folder archive duplicated by extracted files"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "assets/img/about.png.zip",
+      "reason": "nested source-folder archive duplicated by extracted files"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "assets/tmp/event_preview/fac_20260504_141128_0_8aa6ebe7.jpeg",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "assets/tmp/event_preview/preview_20260430_101953_4dfb270dde2c.jpeg",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "assets/tmp/event_preview/preview_20260504_141322_1c9750d5b080.jpeg",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "assets/tmp/event_preview/preview_20260504_141128_0b1242959b0c.jpeg",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "assets/tmp/event_preview/fac_20260504_141322_0_377c1678.jpeg",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "assets/tmp/event_preview/preview_20260428_095100_25e3134bb3b7.jpeg",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "assets/tmp/event_preview/fac_20260428_095100_0_cf8f2503.jpeg",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "assets/tmp/course_preview/course_20260504_141404_c2000ee5.jpeg",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "assets/tmp/course_preview/course_20260504_141530_8efc0b9a.jpeg",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    },
+    {
+      "severity": "info",
+      "category": "excluded",
+      "path": "assets/tmp/course_preview/course_20260504_141530_b2c4bb36.png",
+      "reason": "generated cache, log, temporary, dependency, or server-backup content"
+    }
+  ],
+  "live_site": {
+    "site_url": "https://purpleguide.study/",
+    "visited_routes": [
+      "/",
+      "/Feed_track_progress",
+      "/Googlelogins/googleLogin",
+      "/Home/defaultdashboard",
+      "/Login",
+      "/Privacy_policy",
+      "/Programsfull/program/11",
+      "/Programsfull/program/2",
+      "/Purplenonmedical",
+      "/Purpleplab",
+      "/Usmlerotation",
+      "/about",
+      "/countriesaus",
+      "/countriesgermany",
+      "/countriesuk",
+      "/countriesusa",
+      "/cvreadyprogram",
+      "/explorecountries",
+      "/finance",
+      "/home/purplepremium_overview",
+      "/purpleamc",
+      "/purpleevents/session/10",
+      "/purpleevents/session/5",
+      "/purpleevents/session/7",
+      "/purplepremiumhome",
+      "/purpleusme",
+      "/scholarship",
+      "/studentresources",
+      "/unitieup",
+      "/upload_your_doc"
+    ],
+    "route_status": {
+      "/robots.txt": 404,
+      "/sitemap.xml": 404,
+      "/sitemap_index.xml": 404,
+      "/": 200,
+      "/purplepremiumhome": 200,
+      "/purpleamc": 200,
+      "/purpleevents/session/10": 200,
+      "/upload_your_doc": 200,
+      "/cvreadyprogram": 200,
+      "/unitieup": 200,
+      "/purpleusme": 200,
+      "/countriesaus": 200,
+      "/Feed_track_progress": 200,
+      "/finance": 200,
+      "/countriesuk": 200,
+      "/purpleevents/session/5": 200,
+      "/Purplenonmedical": 200,
+      "/scholarship": 200,
+      "/Login": 200,
+      "/Programsfull/program/11": 200,
+      "/purpleevents/session/7": 200,
+      "/countriesusa": 200,
+      "/Purpleplab": 200,
+      "/about": 200,
+      "/studentresources": 200,
+      "/Privacy_policy": 404,
+      "/Home/defaultdashboard": 200,
+      "/Googlelogins/googleLogin": 200,
+      "/home/purplepremium_overview": 200,
+      "/explorecountries": 200,
+      "/countriesgermany": 200,
+      "/Usmlerotation": 200,
+      "/Programsfull/program/2": 200
+    },
+    "assets": [
+      "/admin/assets/images/13721764058641.jpg",
+      "/admin/assets/images/20871773827749.jpeg",
+      "/admin/assets/images/31721781612391.png",
+      "/admin/assets/images/50791783924759.png",
+      "/assets/css/icon.min.css",
+      "/assets/css/responsive.css",
+      "/assets/css/style.css",
+      "/assets/css/vendors.min.css",
+      "/assets/demos/marketing/marketing.css",
+      "/assets/img/Frame-1.png",
+      "/assets/img/Frameusa.jpeg",
+      "/assets/img/Google-2.png",
+      "/assets/img/Pinterest.png",
+      "/assets/img/PurplePremium1.png",
+      "/assets/img/PurplePremium2.png",
+      "/assets/img/Reddit.png",
+      "/assets/img/Spotify.png",
+      "/assets/img/Stripe.png",
+      "/assets/img/Subtract.png",
+      "/assets/img/US.png",
+      "/assets/img/USMLErotation1.png",
+      "/assets/img/USMLErotation2.png",
+      "/assets/img/arrow-btn.png",
+      "/assets/img/arrow-dot-yellow-right.png",
+      "/assets/img/arrow-down-1.png",
+      "/assets/img/arrow-left-2.png",
+      "/assets/img/arrow-left.png",
+      "/assets/img/arrow-modal.png",
+      "/assets/img/avatar-icon.png",
+      "/assets/img/avatar.jpg",
+      "/assets/img/ball.png",
+      "/assets/img/bell.gif",
+      "/assets/img/bg-liner.png",
+      "/assets/img/black-mail.png",
+      "/assets/img/bookcalendar.png",
+      "/assets/img/border-house.png",
+      "/assets/img/bump.png",
+      "/assets/img/calendar-2.png",
+      "/assets/img/calendar.png",
+      "/assets/img/check-12.png",
+      "/assets/img/check-green.png",
+      "/assets/img/check-icon.png",
+      "/assets/img/check-outline.png",
+      "/assets/img/check.png",
+      "/assets/img/client-1.png",
+      "/assets/img/client-2.png",
+      "/assets/img/client-3.png",
+      "/assets/img/client-4.png",
+      "/assets/img/client-5.png",
+      "/assets/img/client-6.png",
+      "/assets/img/college-white-icon.png",
+      "/assets/img/complete-notes.png",
+      "/assets/img/computer.jpg",
+      "/assets/img/countriesUSA3.png",
+      "/assets/img/county-mobile.png",
+      "/assets/img/cross-red.png",
+      "/assets/img/cross.png",
+      "/assets/img/crown.png",
+      "/assets/img/cut-college-img.png",
+      "/assets/img/cvready-icon.png",
+      "/assets/img/dashboard-gif.png",
+      "/assets/img/default-avatar.png",
+      "/assets/img/degree-with-girl.png",
+      "/assets/img/desk-user.png",
+      "/assets/img/doctor-2.jpg",
+      "/assets/img/doctor.png",
+      "/assets/img/dots-slider.png",
+      "/assets/img/dots-top-arrow.png",
+      "/assets/img/down-arrow-1.png",
+      "/assets/img/down-arrow-scroll.png",
+      "/assets/img/down-arrow.png",
+      "/assets/img/download.png",
+      "/assets/img/edit-check.png",
+      "/assets/img/et.png",
+      "/assets/img/facebook.png",
+      "/assets/img/filter-icon.png",
+      "/assets/img/filter-line.png",
+      "/assets/img/finance-icon.png",
+      "/assets/img/fit-student-hero-desk.png",
+      "/assets/img/flat-color-icons_ok.png",
+      "/assets/img/football-team.png",
+      "/assets/img/founder.png",
+      "/assets/img/frame-set.png",
+      "/assets/img/g-1.jpg",
+      "/assets/img/g-3.jpg",
+      "/assets/img/girl-mentor.jpg",
+      "/assets/img/girl-pick-1.jpg",
+      "/assets/img/girl-with-book.jpg",
+      "/assets/img/gold-sticker.png",
+      "/assets/img/google.png",
+      "/assets/img/green-1.png",
+      "/assets/img/half-cut-girl.png",
+      "/assets/img/heart-icon.png",
+      "/assets/img/heart.gif",
+      "/assets/img/high-fiy.png",
+      "/assets/img/icon-traingal.png",
+      "/assets/img/img-about-1.png",
+      "/assets/img/insta-girl.png",
+      "/assets/img/instagram.png",
+      "/assets/img/intro.png",
+      "/assets/img/join-btn.png",
+      "/assets/img/left-right.png",
+      "/assets/img/left.png",
+      "/assets/img/library.jpg",
+      "/assets/img/lines-icon.png",
+      "/assets/img/linkdln.png",
+      "/assets/img/list-check.png",
+      "/assets/img/loading-icon.png",
+      "/assets/img/lock-2.png",
+      "/assets/img/lock-arrow-down-2.png",
+      "/assets/img/lock-arrow-down.png",
+      "/assets/img/lock-border.png",
+      "/assets/img/lock.png",
+      "/assets/img/logo-1.png",
+      "/assets/img/logo-2.png",
+      "/assets/img/logo-3.png",
+      "/assets/img/logo-4.png",
+      "/assets/img/logo-5.png",
+      "/assets/img/logo-transparent.png",
+      "/assets/img/logo.png",
+      "/assets/img/logout.png",
+      "/assets/img/lvmint.png",
+      "/assets/img/mail.png",
+      "/assets/img/mask-img.png",
+      "/assets/img/medical.png",
+      "/assets/img/meet-laptop.jpg",
+      "/assets/img/meeter.png",
+      "/assets/img/music.png",
+      "/assets/img/my-college.png",
+      "/assets/img/okk.png",
+      "/assets/img/outline-facebook.png",
+      "/assets/img/outline-insta.png",
+      "/assets/img/outline-messager.png",
+      "/assets/img/outline-wp.png",
+      "/assets/img/outro-program.jpg",
+      "/assets/img/partner-1.png",
+      "/assets/img/partner-2.png",
+      "/assets/img/partner-3.png",
+      "/assets/img/partner-4.png",
+      "/assets/img/partner-5.png",
+      "/assets/img/partner-6.png",
+      "/assets/img/partner-7.png",
+      "/assets/img/partner-8.png",
+      "/assets/img/partner-9.png",
+      "/assets/img/pdf-icon.png",
+      "/assets/img/phone.png",
+      "/assets/img/photo-2.jpg",
+      "/assets/img/photo-3.jpg",
+      "/assets/img/play-book-read.png",
+      "/assets/img/player-1.png",
+      "/assets/img/pointer.webp",
+      "/assets/img/premium-3.png",
+      "/assets/img/profile-icon.png",
+      "/assets/img/qr-2.png",
+      "/assets/img/qr.png",
+      "/assets/img/rcrsed.jpg",
+      "/assets/img/read-you-girl.jpg",
+      "/assets/img/reading-book-boy.png",
+      "/assets/img/red-hours.gif",
+      "/assets/img/resize-icon.png",
+      "/assets/img/restro-img.jpg",
+      "/assets/img/right-arrow-button.png",
+      "/assets/img/right.png",
+      "/assets/img/saved_1.jpg",
+      "/assets/img/saved_2.jpg",
+      "/assets/img/saved_logo.jpg",
+      "/assets/img/scholar-icon.png",
+      "/assets/img/selfe.jpg",
+      "/assets/img/share.png",
+      "/assets/img/sidebar-arrow.png",
+      "/assets/img/smile.png",
+      "/assets/img/speach.png",
+      "/assets/img/speech-1.png",
+      "/assets/img/speech-2.png",
+      "/assets/img/stars.gif",
+      "/assets/img/start-now-icon.png",
+      "/assets/img/stemp.png",
+      "/assets/img/step.png",
+      "/assets/img/tc.png",
+      "/assets/img/team-goal.png",
+      "/assets/img/threads.png",
+      "/assets/img/toggle-lines.png",
+      "/assets/img/top-arrow-2.png",
+      "/assets/img/top-arrow-scroll.png",
+      "/assets/img/top-down-arrow.png",
+      "/assets/img/top-to-right.png",
+      "/assets/img/top.png",
+      "/assets/img/topy.png",
+      "/assets/img/uni.jpg",
+      "/assets/img/up-arrow.png",
+      "/assets/img/upload-icon.png",
+      "/assets/img/user-edit.png",
+      "/assets/img/usml-vector.png",
+      "/assets/img/watch.gif",
+      "/assets/img/watch.png",
+      "/assets/img/white-logo.png",
+      "/assets/img/yellow-arrow-down.png",
+      "/assets/img/yellow-check.png",
+      "/assets/img/yellow-noun-arrow.png",
+      "/assets/img/yellow-top-arrow.png",
+      "/assets/img/youtube.png",
+      "/assets/js/jquery.js",
+      "/assets/js/main.js",
+      "/assets/js/pgs-autocomplete.js",
+      "/assets/js/vendors.min.js",
+      "/assets/videos/uhd_25fps.mp4",
+      "/pgs_admin/assets/images/13721764058641.jpg",
+      "/pgs_admin/assets/images/15941781870876.mp4",
+      "/pgs_admin/assets/images/18131784289445.mp4",
+      "/pgs_admin/assets/images/20871773827749.jpeg",
+      "/pgs_admin/assets/images/21551777900541.png",
+      "/pgs_admin/assets/images/21671772695120.jpeg",
+      "/pgs_admin/assets/images/23211784289498.jfif",
+      "/pgs_admin/assets/images/23261774004298.png",
+      "/pgs_admin/assets/images/2371784224555.jpg",
+      "/pgs_admin/assets/images/41511784271589.jfif",
+      "/pgs_admin/assets/images/47351772695332.png",
+      "/pgs_admin/assets/images/51451779437712.jpg",
+      "/pgs_admin/assets/images/52341774004298.png",
+      "/pgs_admin/assets/images/59261773750781.png",
+      "/pgs_admin/assets/images/66971778509717.jpg",
+      "/pgs_admin/assets/images/71441779437552.jpg",
+      "/pgs_admin/assets/images/75311780653655.webp",
+      "/pgs_admin/assets/images/8641777900457.jpeg",
+      "/pgs_admin/assets/images/86681781867966.pdf",
+      "/pgs_admin/assets/images/97021777900541.jpeg",
+      "/pgs_admin/assets/images/99421781870876.png",
+      "/pgs_admin/assets/images/cvprog_1774088787_9821.png",
+      "/pgs_admin/assets/images/cvprog_1784892565_2620.png",
+      "/pgs_admin/assets/images/cvprog_1784892634_9364.png"
+    ],
+    "asset_status": {
+      "/admin/assets/images/13721764058641.jpg": 404,
+      "/admin/assets/images/20871773827749.jpeg": 404,
+      "/admin/assets/images/31721781612391.png": 404,
+      "/admin/assets/images/50791783924759.png": 404,
+      "/assets/css/icon.min.css": 200,
+      "/assets/css/responsive.css": 200,
+      "/assets/css/style.css": 200,
+      "/assets/css/vendors.min.css": 200,
+      "/assets/demos/marketing/marketing.css": 404,
+      "/assets/img/Frame-1.png": 200,
+      "/assets/img/Frameusa.jpeg": 200,
+      "/assets/img/Google-2.png": 200,
+      "/assets/img/Pinterest.png": 200,
+      "/assets/img/PurplePremium1.png": 200,
+      "/assets/img/PurplePremium2.png": 200,
+      "/assets/img/Reddit.png": 200,
+      "/assets/img/Spotify.png": 200,
+      "/assets/img/Stripe.png": 200,
+      "/assets/img/Subtract.png": 200,
+      "/assets/img/US.png": 200,
+      "/assets/img/USMLErotation1.png": 200,
+      "/assets/img/USMLErotation2.png": 200,
+      "/assets/img/arrow-btn.png": 200,
+      "/assets/img/arrow-dot-yellow-right.png": 200,
+      "/assets/img/arrow-down-1.png": 200,
+      "/assets/img/arrow-left-2.png": 200,
+      "/assets/img/arrow-left.png": 200,
+      "/assets/img/arrow-modal.png": 200,
+      "/assets/img/avatar-icon.png": 200,
+      "/assets/img/avatar.jpg": 200,
+      "/assets/img/ball.png": 200,
+      "/assets/img/bell.gif": 200,
+      "/assets/img/bg-liner.png": 200,
+      "/assets/img/black-mail.png": 200,
+      "/assets/img/bookcalendar.png": 200,
+      "/assets/img/border-house.png": 200,
+      "/assets/img/bump.png": 200,
+      "/assets/img/calendar-2.png": 200,
+      "/assets/img/calendar.png": 200,
+      "/assets/img/check-12.png": 200,
+      "/assets/img/check-green.png": 200,
+      "/assets/img/check-icon.png": 200,
+      "/assets/img/check-outline.png": 200,
+      "/assets/img/check.png": 200,
+      "/assets/img/client-1.png": 200,
+      "/assets/img/client-2.png": 200,
+      "/assets/img/client-3.png": 200,
+      "/assets/img/client-4.png": 200,
+      "/assets/img/client-5.png": 200,
+      "/assets/img/client-6.png": 200,
+      "/assets/img/college-white-icon.png": 200,
+      "/assets/img/complete-notes.png": 200,
+      "/assets/img/computer.jpg": "ReadTimeout",
+      "/assets/img/countriesUSA3.png": 200,
+      "/assets/img/county-mobile.png": 200,
+      "/assets/img/cross-red.png": 200,
+      "/assets/img/cross.png": 200,
+      "/assets/img/crown.png": 200,
+      "/assets/img/cut-college-img.png": 200,
+      "/assets/img/cvready-icon.png": 200,
+      "/assets/img/dashboard-gif.png": 200,
+      "/assets/img/default-avatar.png": 200,
+      "/assets/img/degree-with-girl.png": "ReadTimeout",
+      "/assets/img/desk-user.png": 200,
+      "/assets/img/doctor-2.jpg": 200,
+      "/assets/img/doctor.png": "ReadTimeout",
+      "/assets/img/dots-slider.png": 200,
+      "/assets/img/dots-top-arrow.png": 200,
+      "/assets/img/down-arrow-1.png": 200,
+      "/assets/img/down-arrow-scroll.png": 200,
+      "/assets/img/down-arrow.png": 200,
+      "/assets/img/download.png": 200,
+      "/assets/img/edit-check.png": 200,
+      "/assets/img/et.png": 200,
+      "/assets/img/facebook.png": 200,
+      "/assets/img/filter-icon.png": 200,
+      "/assets/img/filter-line.png": 200,
+      "/assets/img/finance-icon.png": 200,
+      "/assets/img/fit-student-hero-desk.png": 200,
+      "/assets/img/flat-color-icons_ok.png": 200
+    },
+    "errors": []
+  },
+  "omission_analysis": {
+    "framework_guess": "PHP website",
+    "source_markers": [
+      "composer.json"
+    ],
+    "build_markers": [
+      "assets"
+    ],
+    "present_live_assets": [
+      "/assets/css/icon.min.css",
+      "/assets/css/responsive.css",
+      "/assets/css/style.css",
+      "/assets/css/vendors.min.css",
+      "/assets/img/Frame-1.png",
+      "/assets/img/Frameusa.jpeg",
+      "/assets/img/Google-2.png",
+      "/assets/img/Pinterest.png",
+      "/assets/img/PurplePremium1.png",
+      "/assets/img/PurplePremium2.png",
+      "/assets/img/Reddit.png",
+      "/assets/img/Spotify.png",
+      "/assets/img/Stripe.png",
+      "/assets/img/Subtract.png",
+      "/assets/img/US.png",
+      "/assets/img/USMLErotation1.png",
+      "/assets/img/USMLErotation2.png",
+      "/assets/img/arrow-btn.png",
+      "/assets/img/arrow-dot-yellow-right.png",
+      "/assets/img/arrow-down-1.png",
+      "/assets/img/arrow-left-2.png",
+      "/assets/img/arrow-left.png",
+      "/assets/img/arrow-modal.png",
+      "/assets/img/avatar-icon.png",
+      "/assets/img/avatar.jpg",
+      "/assets/img/ball.png",
+      "/assets/img/bell.gif",
+      "/assets/img/bg-liner.png",
+      "/assets/img/black-mail.png",
+      "/assets/img/bookcalendar.png",
+      "/assets/img/border-house.png",
+      "/assets/img/bump.png",
+      "/assets/img/calendar-2.png",
+      "/assets/img/calendar.png",
+      "/assets/img/check-12.png",
+      "/assets/img/check-green.png",
+      "/assets/img/check-icon.png",
+      "/assets/img/check-outline.png",
+      "/assets/img/check.png",
+      "/assets/img/client-1.png",
+      "/assets/img/client-2.png",
+      "/assets/img/client-3.png",
+      "/assets/img/client-4.png",
+      "/assets/img/client-5.png",
+      "/assets/img/client-6.png",
+      "/assets/img/college-white-icon.png",
+      "/assets/img/complete-notes.png",
+      "/assets/img/computer.jpg",
+      "/assets/img/countriesUSA3.png",
+      "/assets/img/county-mobile.png",
+      "/assets/img/cross-red.png",
+      "/assets/img/cross.png",
+      "/assets/img/crown.png",
+      "/assets/img/cut-college-img.png",
+      "/assets/img/cvready-icon.png",
+      "/assets/img/dashboard-gif.png",
+      "/assets/img/default-avatar.png",
+      "/assets/img/degree-with-girl.png",
+      "/assets/img/desk-user.png",
+      "/assets/img/doctor-2.jpg",
+      "/assets/img/doctor.png",
+      "/assets/img/dots-slider.png",
+      "/assets/img/dots-top-arrow.png",
+      "/assets/img/down-arrow-1.png",
+      "/assets/img/down-arrow-scroll.png",
+      "/assets/img/down-arrow.png",
+      "/assets/img/download.png",
+      "/assets/img/edit-check.png",
+      "/assets/img/et.png",
+      "/assets/img/facebook.png",
+      "/assets/img/filter-icon.png",
+      "/assets/img/filter-line.png",
+      "/assets/img/finance-icon.png",
+      "/assets/img/fit-student-hero-desk.png",
+      "/assets/img/flat-color-icons_ok.png",
+      "/assets/img/football-team.png",
+      "/assets/img/founder.png",
+      "/assets/img/frame-set.png",
+      "/assets/img/g-1.jpg",
+      "/assets/img/g-3.jpg",
+      "/assets/img/girl-mentor.jpg",
+      "/assets/img/girl-pick-1.jpg",
+      "/assets/img/girl-with-book.jpg",
+      "/assets/img/gold-sticker.png",
+      "/assets/img/google.png",
+      "/assets/img/green-1.png",
+      "/assets/img/half-cut-girl.png",
+      "/assets/img/heart-icon.png",
+      "/assets/img/heart.gif",
+      "/assets/img/high-fiy.png",
+      "/assets/img/icon-traingal.png",
+      "/assets/img/img-about-1.png",
+      "/assets/img/insta-girl.png",
+      "/assets/img/instagram.png",
+      "/assets/img/intro.png",
+      "/assets/img/join-btn.png",
+      "/assets/img/left-right.png",
+      "/assets/img/left.png",
+      "/assets/img/library.jpg",
+      "/assets/img/lines-icon.png",
+      "/assets/img/linkdln.png",
+      "/assets/img/list-check.png",
+      "/assets/img/loading-icon.png",
+      "/assets/img/lock-2.png",
+      "/assets/img/lock-arrow-down-2.png",
+      "/assets/img/lock-arrow-down.png",
+      "/assets/img/lock-border.png",
+      "/assets/img/lock.png",
+      "/assets/img/logo-1.png",
+      "/assets/img/logo-2.png",
+      "/assets/img/logo-3.png",
+      "/assets/img/logo-4.png",
+      "/assets/img/logo-5.png",
+      "/assets/img/logo-transparent.png",
+      "/assets/img/logo.png",
+      "/assets/img/logout.png",
+      "/assets/img/lvmint.png",
+      "/assets/img/mail.png",
+      "/assets/img/mask-img.png",
+      "/assets/img/medical.png",
+      "/assets/img/meet-laptop.jpg",
+      "/assets/img/meeter.png",
+      "/assets/img/music.png",
+      "/assets/img/my-college.png",
+      "/assets/img/okk.png",
+      "/assets/img/outline-facebook.png",
+      "/assets/img/outline-insta.png",
+      "/assets/img/outline-messager.png",
+      "/assets/img/outline-wp.png",
+      "/assets/img/outro-program.jpg",
+      "/assets/img/partner-1.png",
+      "/assets/img/partner-2.png",
+      "/assets/img/partner-3.png",
+      "/assets/img/partner-4.png",
+      "/assets/img/partner-5.png",
+      "/assets/img/partner-6.png",
+      "/assets/img/partner-7.png",
+      "/assets/img/partner-8.png",
+      "/assets/img/partner-9.png",
+      "/assets/img/pdf-icon.png",
+      "/assets/img/phone.png",
+      "/assets/img/photo-2.jpg",
+      "/assets/img/photo-3.jpg",
+      "/assets/img/play-book-read.png",
+      "/assets/img/player-1.png",
+      "/assets/img/pointer.webp",
+      "/assets/img/premium-3.png",
+      "/assets/img/profile-icon.png",
+      "/assets/img/qr-2.png",
+      "/assets/img/qr.png",
+      "/assets/img/rcrsed.jpg",
+      "/assets/img/read-you-girl.jpg",
+      "/assets/img/reading-book-boy.png",
+      "/assets/img/red-hours.gif",
+      "/assets/img/resize-icon.png",
+      "/assets/img/restro-img.jpg",
+      "/assets/img/right-arrow-button.png",
+      "/assets/img/right.png",
+      "/assets/img/saved_1.jpg",
+      "/assets/img/saved_2.jpg",
+      "/assets/img/saved_logo.jpg",
+      "/assets/img/scholar-icon.png",
+      "/assets/img/selfe.jpg",
+      "/assets/img/share.png",
+      "/assets/img/sidebar-arrow.png",
+      "/assets/img/smile.png",
+      "/assets/img/speach.png",
+      "/assets/img/speech-1.png",
+      "/assets/img/speech-2.png",
+      "/assets/img/stars.gif",
+      "/assets/img/start-now-icon.png",
+      "/assets/img/stemp.png",
+      "/assets/img/step.png",
+      "/assets/img/tc.png",
+      "/assets/img/team-goal.png",
+      "/assets/img/threads.png",
+      "/assets/img/toggle-lines.png",
+      "/assets/img/top-arrow-2.png",
+      "/assets/img/top-arrow-scroll.png",
+      "/assets/img/top-down-arrow.png",
+      "/assets/img/top-to-right.png",
+      "/assets/img/top.png",
+      "/assets/img/topy.png",
+      "/assets/img/uni.jpg",
+      "/assets/img/up-arrow.png",
+      "/assets/img/upload-icon.png",
+      "/assets/img/user-edit.png",
+      "/assets/img/usml-vector.png",
+      "/assets/img/watch.gif",
+      "/assets/img/watch.png",
+      "/assets/img/white-logo.png",
+      "/assets/img/yellow-arrow-down.png",
+      "/assets/img/yellow-check.png",
+      "/assets/img/yellow-noun-arrow.png",
+      "/assets/img/yellow-top-arrow.png",
+      "/assets/img/youtube.png",
+      "/assets/js/jquery.js",
+      "/assets/js/main.js",
+      "/assets/js/pgs-autocomplete.js",
+      "/assets/js/vendors.min.js",
+      "/assets/videos/uhd_25fps.mp4",
+      "/pgs_admin/assets/images/13721764058641.jpg",
+      "/pgs_admin/assets/images/15941781870876.mp4",
+      "/pgs_admin/assets/images/18131784289445.mp4",
+      "/pgs_admin/assets/images/20871773827749.jpeg",
+      "/pgs_admin/assets/images/21551777900541.png",
+      "/pgs_admin/assets/images/21671772695120.jpeg",
+      "/pgs_admin/assets/images/23211784289498.jfif",
+      "/pgs_admin/assets/images/23261774004298.png",
+      "/pgs_admin/assets/images/2371784224555.jpg",
+      "/pgs_admin/assets/images/41511784271589.jfif",
+      "/pgs_admin/assets/images/47351772695332.png",
+      "/pgs_admin/assets/images/51451779437712.jpg",
+      "/pgs_admin/assets/images/52341774004298.png",
+      "/pgs_admin/assets/images/59261773750781.png",
+      "/pgs_admin/assets/images/66971778509717.jpg",
+      "/pgs_admin/assets/images/71441779437552.jpg",
+      "/pgs_admin/assets/images/75311780653655.webp",
+      "/pgs_admin/assets/images/8641777900457.jpeg",
+      "/pgs_admin/assets/images/86681781867966.pdf",
+      "/pgs_admin/assets/images/97021777900541.jpeg",
+      "/pgs_admin/assets/images/99421781870876.png",
+      "/pgs_admin/assets/images/cvprog_1774088787_9821.png",
+      "/pgs_admin/assets/images/cvprog_1784892565_2620.png",
+      "/pgs_admin/assets/images/cvprog_1784892634_9364.png"
+    ],
+    "missing_live_assets": [
+      "/admin/assets/images/13721764058641.jpg",
+      "/admin/assets/images/20871773827749.jpeg",
+      "/admin/assets/images/31721781612391.png",
+      "/admin/assets/images/50791783924759.png",
+      "/assets/demos/marketing/marketing.css"
+    ],
+    "expected_omissions": [
+      "Hostinger account settings, DNS, SSL certificates, cron jobs, email mailboxes, and database contents normally live outside public_html.",
+      "Runtime cache, logs, sessions, TLS challenge files, local dependency folders, and backup archives were intentionally excluded from GitHub."
+    ],
+    "suspicious_omissions": [
+      "5 same-origin assets referenced by the live site were not matched to a file in the backup. Some may be generated routes, CDN rewrites, or case differences."
+    ],
+    "confidence": "medium"
+  }
+}
