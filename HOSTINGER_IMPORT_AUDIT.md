@@ -12,7 +12,7 @@ Generated automatically from the supplied `public_html.zip` and the live site `h
 - Missing-file conclusion confidence: **medium**
 - Live routes checked: **30**
 - Same-origin live assets discovered: **230**
-- Live assets not matched in backup: **5**
+- Live assets not matched at the same path: **5** (**4 reconciled through `/admin` → `/pgs_admin` aliasing; 1 unresolved**)
 
 ## Did the developer intentionally skip files?
 
@@ -36,6 +36,16 @@ These are public same-origin asset paths referenced during the crawl but not fou
 - `/admin/assets/images/31721781612391.png`
 - `/admin/assets/images/50791783924759.png`
 - `/assets/demos/marketing/marketing.css`
+
+## Post-audit path reconciliation
+
+A filename-level check against the imported repository found that the four image files listed under `/admin/assets/images/` are present under `pgs_admin/assets/images/`. The live server is therefore likely exposing `pgs_admin` through an `/admin` route alias or rewrite. These four images were **not skipped** from the backup.
+
+The only live path still unmatched is:
+
+- `/assets/demos/marketing/marketing.css`
+
+**Revised conclusion:** one public CSS path remains unresolved. That is worth checking with the developer, but the available evidence does not prove it was intentionally withheld; it may be generated, renamed, served by a rewrite, or stale HTML.
 
 ## Security and cleanup warnings
 
