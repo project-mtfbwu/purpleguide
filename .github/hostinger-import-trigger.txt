@@ -1,2 +1,2 @@
 Run the one-time Hostinger backup import and live-site audit.
-Retry 4: bounded live crawl, hardened credential scrub, and Git LFS import.
+Final retry: stable crawl limits, credential scrub, audit artifact, and Git LFS push.
