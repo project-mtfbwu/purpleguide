@@ -1,2 +1,2 @@
 Run the one-time Hostinger backup import and live-site audit.
-Retry 3: sanitize CodeIgniter credentials and ignore workflow self-matches.
+Retry 4: bounded live crawl, hardened credential scrub, and Git LFS import.
