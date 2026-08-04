@@ -51,7 +51,7 @@ jobs:
         run: |
           set -euo pipefail
           mkdir -p "$RUNNER_TEMP/hostinger/extracted"
-          python -m gdown --fuzzy "$DRIVE_URL" -O "$RUNNER_TEMP/hostinger/public_html.zip"
+          python -m gdown "$DRIVE_URL" -O "$RUNNER_TEMP/hostinger/public_html.zip"
           test "$(stat -c%s "$RUNNER_TEMP/hostinger/public_html.zip")" -gt 2600000000
           unzip -tq "$RUNNER_TEMP/hostinger/public_html.zip"
 
