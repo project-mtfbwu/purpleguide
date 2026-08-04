@@ -6,6 +6,9 @@ on:
     paths:
       - '.github/workflows/import-hostinger.yml'
       - '.github/import-tools/import_hostinger.py'
+  pull_request:
+    branches: [main]
+    types: [opened, synchronize, reopened]
   workflow_dispatch:
 
 permissions:
@@ -24,9 +27,10 @@ jobs:
       DRIVE_URL: https://drive.google.com/file/d/1OphbNn50U3elHh7t63nw5Ik68dw167pd/view?usp=sharing
       SITE_URL: https://purpleguide.study
     steps:
-      - name: Check out repository
+      - name: Check out main branch
         uses: actions/checkout@v4
         with:
+          ref: main
           fetch-depth: 0
           lfs: false
 
