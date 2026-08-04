@@ -1,2 +1,2 @@
 Run the one-time Hostinger backup import and live-site audit.
-Retry 2: use current gdown URL syntax.
+Retry 3: sanitize CodeIgniter credentials and ignore workflow self-matches.
