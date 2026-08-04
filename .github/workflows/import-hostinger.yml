@@ -21,6 +21,7 @@ jobs:
     env:
       DRIVE_URL: https://drive.google.com/file/d/1OphbNn50U3elHh7t63nw5Ik68dw167pd/view?usp=sharing
       SITE_URL: https://purpleguide.study
+      IMPORT_BRANCH: hostinger-import-clean
     steps:
       - name: Check out main branch
         uses: actions/checkout@v5
@@ -55,16 +56,57 @@ jobs:
           set -euo pipefail
           unzip -q "$RUNNER_TEMP/hostinger/public_html.zip" -d "$RUNNER_TEMP/hostinger/extracted"
 
-      - name: Bound live-site audit runtime
+      - name: Prepare bounded and lossless import rules
         run: |
           set -euo pipefail
           python - <<'PY'
           from pathlib import Path
+
           path = Path('.github/import-tools/import_hostinger.py')
           text = path.read_text()
+
+          # Keep the live comparison useful but bounded.
           text = text.replace('max_pages: int = 250', 'max_pages: int = 30')
           text = text.replace('sorted(assets)[:1500]', 'sorted(assets)[:80]')
           text = text.replace('timeout=20', 'timeout=3')
+
+          # Exclude obvious nested copies of source folders. The extracted files
+          # remain in the original Drive backup; GitHub receives the real files,
+          # not duplicate ZIPs of the same folders.
+          archive_anchor = '''    if re.search(r"(?i)(backup|back-up|old-copy|copy-of|fullbackup|softaculous).*(\\.zip|\\.tar|\\.gz|\\.tgz|\\.7z|\\.rar|\\.bak)$", basename):
+              return True, "backup archive"
+          '''
+          archive_rule = '''    nested_source_archives = {
+              "purplebackup1.zip", "css.zip", "img.zip", "about.png.zip",
+              "application.zip", "plugins.zip", "pgs.zip", "cache.zip",
+          }
+          if basename in nested_source_archives:
+              return True, "nested source-folder archive duplicated by extracted files"
+          if re.search(r"(?i)(backup|back-up|old-copy|copy-of|fullbackup|softaculous).*(\\.zip|\\.tar|\\.gz|\\.tgz|\\.7z|\\.rar|\\.bak)$", basename):
+              return True, "backup archive"
+          '''
+          if archive_anchor not in text:
+              raise SystemExit('Could not patch nested archive rule safely.')
+          text = text.replace(archive_anchor, archive_rule)
+
+          # Preserve application files containing replaceable credentials.
+          # Only private-key-bearing files are removed outright; the conservative
+          # sanitizer handles exact keys after copying.
+          secret_anchor = '''        secret_reason = looks_secret(src)
+                  if secret_reason:
+                      findings.append(Finding("warning", "possible secret", rel.as_posix(), f"excluded after detecting {secret_reason}"))
+                      continue
+          '''
+          secret_rule = '''        secret_reason = looks_secret(src)
+                  if secret_reason == "private key material":
+                      findings.append(Finding("warning", "possible secret", rel.as_posix(), "excluded after detecting private key material"))
+                      continue
+                  if secret_reason:
+                      findings.append(Finding("warning", "possible secret", rel.as_posix(), f"copied for sanitization after detecting {secret_reason}"))
+          '''
+          if secret_anchor not in text:
+              raise SystemExit('Could not patch secret-preservation rule safely.')
+          text = text.replace(secret_anchor, secret_rule)
           path.write_text(text)
           PY
 
@@ -77,10 +119,15 @@ jobs:
             --repo "$GITHUB_WORKSPACE" \
             --site-url "$SITE_URL"
 
-      - name: Sanitize framework credentials
+      - name: Sanitize framework credentials conservatively
         run: |
           set -euo pipefail
           python .github/import-tools/sanitize_sensitive.py --repo "$GITHUB_WORKSPACE"
+
+      - name: Restore import tooling source
+        run: |
+          set -euo pipefail
+          git checkout HEAD -- .github/import-tools/import_hostinger.py
 
       - name: Validate Git LFS coverage and repository safety
         run: |
@@ -110,20 +157,7 @@ jobs:
             exit 1
           fi
 
-      - name: Upload audit reports
-        if: always()
-        uses: actions/upload-artifact@v6
-        with:
-          name: hostinger-import-audit
-          path: |
-            HOSTINGER_IMPORT_AUDIT.md
-            HOSTINGER_IMPORT_AUDIT.json
-            HOSTINGER_SECURITY_SANITIZATION.md
-            HOSTINGER_SECURITY_SANITIZATION.json
-          if-no-files-found: warn
-          retention-days: 7
-
-      - name: Commit and push imported site
+      - name: Commit imported site locally
         run: |
           set -euo pipefail
           git config user.name 'purpleguide-import-bot'
@@ -131,8 +165,61 @@ jobs:
           git add -A
           if git diff --cached --quiet; then
             echo 'No import changes to commit.'
+            echo 'NO_CHANGES=1' > PUSH_STATUS.env
             exit 0
           fi
           git commit -m 'Import and audit Hostinger website backup'
-          git lfs push origin main --all
-          git push origin HEAD:main
+          git rev-parse HEAD > IMPORT_COMMIT.txt
+
+      - name: Push LFS objects and import branch
+        id: push_import
+        continue-on-error: true
+        run: |
+          set +e
+          : > PUSH_DIAGNOSTIC.log
+          echo "Import branch: $IMPORT_BRANCH" >> PUSH_DIAGNOSTIC.log
+          echo "Commit: $(git rev-parse HEAD)" >> PUSH_DIAGNOSTIC.log
+          echo "LFS files: $(git lfs ls-files --name-only | wc -l | tr -d ' ')" >> PUSH_DIAGNOSTIC.log
+          echo "LFS bytes: $(git lfs ls-files --size | awk '{sum += $NF} END {print sum+0}')" >> PUSH_DIAGNOSTIC.log
+
+          git lfs push --all origin HEAD >> PUSH_DIAGNOSTIC.log 2>&1
+          lfs_status=$?
+          git_status=99
+          if [ "$lfs_status" -eq 0 ]; then
+            git push --force origin "HEAD:refs/heads/$IMPORT_BRANCH" >> PUSH_DIAGNOSTIC.log 2>&1
+            git_status=$?
+          fi
+
+          printf 'LFS_STATUS=%s\nGIT_STATUS=%s\n' "$lfs_status" "$git_status" > PUSH_STATUS.env
+          echo "LFS status: $lfs_status" >> PUSH_DIAGNOSTIC.log
+          echo "Git status: $git_status" >> PUSH_DIAGNOSTIC.log
+          exit $(( lfs_status != 0 || git_status != 0 ))
+
+      - name: Upload audit and push diagnostics
+        if: always()
+        uses: actions/upload-artifact@v6
+        with:
+          name: hostinger-import-audit-${{ github.run_id }}
+          path: |
+            HOSTINGER_IMPORT_AUDIT.md
+            HOSTINGER_IMPORT_AUDIT.json
+            HOSTINGER_SECURITY_SANITIZATION.md
+            HOSTINGER_SECURITY_SANITIZATION.json
+            PUSH_DIAGNOSTIC.log
+            PUSH_STATUS.env
+            IMPORT_COMMIT.txt
+          if-no-files-found: warn
+          retention-days: 7
+
+      - name: Verify import branch push
+        if: always()
+        run: |
+          set -euo pipefail
+          if [ -f PUSH_STATUS.env ]; then
+            source PUSH_STATUS.env
+          else
+            echo 'Push status file was not produced.'
+            exit 1
+          fi
+          test "${LFS_STATUS:-1}" -eq 0
+          test "${GIT_STATUS:-1}" -eq 0
