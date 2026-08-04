@@ -11,7 +11,7 @@ permissions:
 
 concurrency:
   group: hostinger-import
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   import:
@@ -62,9 +62,9 @@ jobs:
           from pathlib import Path
           path = Path('.github/import-tools/import_hostinger.py')
           text = path.read_text()
-          text = text.replace('max_pages: int = 250', 'max_pages: int = 80')
-          text = text.replace('sorted(assets)[:1500]', 'sorted(assets)[:500]')
-          text = text.replace('timeout=20', 'timeout=8')
+          text = text.replace('max_pages: int = 250', 'max_pages: int = 30')
+          text = text.replace('sorted(assets)[:1500]', 'sorted(assets)[:80]')
+          text = text.replace('timeout=20', 'timeout=3')
           path.write_text(text)
           PY
 
@@ -109,6 +109,19 @@ jobs:
             echo 'ERROR: private key material remains in imported files.'
             exit 1
           fi
+
+      - name: Upload audit reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: hostinger-import-audit
+          path: |
+            HOSTINGER_IMPORT_AUDIT.md
+            HOSTINGER_IMPORT_AUDIT.json
+            HOSTINGER_SECURITY_SANITIZATION.md
+            HOSTINGER_SECURITY_SANITIZATION.json
+          if-no-files-found: warn
+          retention-days: 7
 
       - name: Commit and push imported site
         run: |
