@@ -1,11 +1,6 @@
 name: Import Hostinger backup
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - '.github/workflows/import-hostinger.yml'
-      - '.github/import-tools/import_hostinger.py'
   pull_request:
     branches: [main]
     types: [opened, synchronize, reopened]
@@ -69,6 +64,11 @@ jobs:
             --repo "$GITHUB_WORKSPACE" \
             --site-url "$SITE_URL"
 
+      - name: Sanitize framework credentials
+        run: |
+          set -euo pipefail
+          python .github/import-tools/sanitize_sensitive.py --repo "$GITHUB_WORKSPACE"
+
       - name: Validate Git LFS coverage and repository safety
         run: |
           set -euo pipefail
@@ -92,8 +92,8 @@ jobs:
           done < <(find . -path './.git' -prune -o -type f -print0)
           test "$bad" -eq 0
 
-          if git grep -Il -e 'BEGIN RSA PRIVATE KEY' -e 'BEGIN OPENSSH PRIVATE KEY' -e 'BEGIN PRIVATE KEY' -- ':!.github/import-tools/*' | grep -q .; then
-            echo 'ERROR: private key material remains after cleanup.'
+          if git grep -Il -e 'BEGIN RSA PRIVATE KEY' -e 'BEGIN OPENSSH PRIVATE KEY' -e 'BEGIN PRIVATE KEY' -- ':!.github/**' | grep -q .; then
+            echo 'ERROR: private key material remains in imported files.'
             exit 1
           fi
 
