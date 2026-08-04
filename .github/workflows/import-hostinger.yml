@@ -65,48 +65,41 @@ jobs:
           path = Path('.github/import-tools/import_hostinger.py')
           text = path.read_text()
 
-          # Keep the live comparison useful but bounded.
           text = text.replace('max_pages: int = 250', 'max_pages: int = 30')
           text = text.replace('sorted(assets)[:1500]', 'sorted(assets)[:80]')
           text = text.replace('timeout=20', 'timeout=3')
 
-          # Exclude obvious nested copies of source folders. The extracted files
-          # remain in the original Drive backup; GitHub receives the real files,
-          # not duplicate ZIPs of the same folders.
-          archive_anchor = '''    if re.search(r"(?i)(backup|back-up|old-copy|copy-of|fullbackup|softaculous).*(\\.zip|\\.tar|\\.gz|\\.tgz|\\.7z|\\.rar|\\.bak)$", basename):
-              return True, "backup archive"
-          '''
-          archive_rule = '''    nested_source_archives = {
-              "purplebackup1.zip", "css.zip", "img.zip", "about.png.zip",
-              "application.zip", "plugins.zip", "pgs.zip", "cache.zip",
-          }
-          if basename in nested_source_archives:
-              return True, "nested source-folder archive duplicated by extracted files"
-          if re.search(r"(?i)(backup|back-up|old-copy|copy-of|fullbackup|softaculous).*(\\.zip|\\.tar|\\.gz|\\.tgz|\\.7z|\\.rar|\\.bak)$", basename):
-              return True, "backup archive"
-          '''
-          if archive_anchor not in text:
+          archive_needle = '    if re.search(r"(?i)(backup|back-up|old-copy|copy-of|fullbackup|softaculous).*(\\.zip|\\.tar|\\.gz|\\.tgz|\\.7z|\\.rar|\\.bak)$", basename):'
+          archive_lines = [
+              '    nested_source_archives = {',
+              '        "purplebackup1.zip", "css.zip", "img.zip", "about.png.zip",',
+              '        "application.zip", "plugins.zip", "pgs.zip", "cache.zip",',
+              '    }',
+              '    if basename in nested_source_archives:',
+              '        return True, "nested source-folder archive duplicated by extracted files"',
+              archive_needle,
+          ]
+          if archive_needle not in text:
               raise SystemExit('Could not patch nested archive rule safely.')
-          text = text.replace(archive_anchor, archive_rule)
+          text = text.replace(archive_needle, '\n'.join(archive_lines), 1)
 
-          # Preserve application files containing replaceable credentials.
-          # Only private-key-bearing files are removed outright; the conservative
-          # sanitizer handles exact keys after copying.
-          secret_anchor = '''        secret_reason = looks_secret(src)
-                  if secret_reason:
-                      findings.append(Finding("warning", "possible secret", rel.as_posix(), f"excluded after detecting {secret_reason}"))
-                      continue
-          '''
-          secret_rule = '''        secret_reason = looks_secret(src)
-                  if secret_reason == "private key material":
-                      findings.append(Finding("warning", "possible secret", rel.as_posix(), "excluded after detecting private key material"))
-                      continue
-                  if secret_reason:
-                      findings.append(Finding("warning", "possible secret", rel.as_posix(), f"copied for sanitization after detecting {secret_reason}"))
-          '''
-          if secret_anchor not in text:
+          secret_old = '\n'.join([
+              '        secret_reason = looks_secret(src)',
+              '        if secret_reason:',
+              '            findings.append(Finding("warning", "possible secret", rel.as_posix(), f"excluded after detecting {secret_reason}"))',
+              '            continue',
+          ])
+          secret_new = '\n'.join([
+              '        secret_reason = looks_secret(src)',
+              '        if secret_reason == "private key material":',
+              '            findings.append(Finding("warning", "possible secret", rel.as_posix(), "excluded after detecting private key material"))',
+              '            continue',
+              '        if secret_reason:',
+              '            findings.append(Finding("warning", "possible secret", rel.as_posix(), f"copied for sanitization after detecting {secret_reason}"))',
+          ])
+          if secret_old not in text:
               raise SystemExit('Could not patch secret-preservation rule safely.')
-          text = text.replace(secret_anchor, secret_rule)
+          text = text.replace(secret_old, secret_new, 1)
           path.write_text(text)
           PY
 
@@ -180,7 +173,6 @@ jobs:
           echo "Import branch: $IMPORT_BRANCH" >> PUSH_DIAGNOSTIC.log
           echo "Commit: $(git rev-parse HEAD)" >> PUSH_DIAGNOSTIC.log
           echo "LFS files: $(git lfs ls-files --name-only | wc -l | tr -d ' ')" >> PUSH_DIAGNOSTIC.log
-          echo "LFS bytes: $(git lfs ls-files --size | awk '{sum += $NF} END {print sum+0}')" >> PUSH_DIAGNOSTIC.log
 
           git lfs push --all origin HEAD >> PUSH_DIAGNOSTIC.log 2>&1
           lfs_status=$?
